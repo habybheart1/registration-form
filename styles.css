@@ -1,3 +1,21 @@
+body {
+  background-color: antiquewhite;
+  font-family: cursive, Geneva, Verdana;
+}
+h1,
+p {
+  text-align: center;
+}
 label {
   display: block;
+}
+form {
+  max-width: 600px;
+  min-width: 200px;
+  width: 100vmax;
+  margin: 5px auto;
+}
+fieldset {
+  border: none;
+  padding: 2px 0;
 }

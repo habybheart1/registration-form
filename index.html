@@ -36,9 +36,54 @@
       </fieldset>
       <fieldset>
         <legend>Education Information</legend>
-        <label>HIGHEST QUALIFICATION: </label>
+        <label
+          >HIGHEST QUALIFICATION:
+          <select>
+            <option value="">M.SC</option>
+            <option value="">B.SC</option>
+            <option value="">SSCE</option>
+            <option value="">Primary</option>
+          </select></label
+        >
+        <label for="school-name"
+          >Name of institution:
+          <textarea
+            rows="2"
+            cols="60"
+            id="school-name"
+            name="school-name"
+          ></textarea>
+        </label>
       </fieldset>
-      <fieldset></fieldset>
+      <fieldset>
+        <label for="passport"
+          >Upload your passport:
+          <input type="file" name="passport" id="passport" />
+        </label>
+        <label for="age"
+          >Input your age:
+          <input type="number" name="age" id="age" min="16" max="40" />
+          <label for="bio"
+            >Brief Description:
+            <textarea
+              rows="3"
+              cols="40"
+              placeholder="Write a short description about your self"
+            ></textarea>
+          </label>
+          <label for="referrer"
+            >How did you hear about us?
+            <select name="referrer" id="referrer">
+              <option value="1">Social Media</option>
+              <option value="2">Friends and family</option>
+              <option value="3">Referrer</option>
+              <option value="4">Search Engine</option>
+              <option value="5">Others</option>
+            </select>
+        </label>
+      </fieldset>
+      <p>Terms and conditions</p>
+      <label for="t&c"><input type="checkbox" name="t&c" id="t&c" required> I accept the <a href="http://www.term&conditions">Terms and Conditions</a></label>
     </form>
   </body>
 </html>
