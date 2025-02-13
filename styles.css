@@ -5,17 +5,23 @@ body {
 h1,
 p {
   text-align: center;
+  margin: 1em auto;
 }
 label {
   display: block;
+  margin: 0.5em auto;
 }
 form {
   max-width: 600px;
   min-width: 200px;
   width: 100vmax;
-  margin: 5px auto;
+  margin: 0 auto;
 }
 fieldset {
   border: none;
   padding: 2px 0;
+  border-bottom: 3px solid brown;
+}
+fieldset:last-of-type {
+  border-bottom: none;
 }
